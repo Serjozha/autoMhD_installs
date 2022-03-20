@@ -1,4 +1,4 @@
-### Для запуску на Ubuntu 20 Azure vps, 1 встановлює docker; 2 переводить у root; 3 запускає auto_Mhddos_proxy
+### Для запуску на Ubuntu 20 Azure vps, 1 встановлює docker; 2 переводить у root; 3 запускає auto_Mhddos_proxy (https://github.com/Aruiem234/auto_mhddos)
 
 ```shell
 sudo snap install docker;
