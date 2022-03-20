@@ -3,10 +3,10 @@
 ```shell
 sudo snap install docker;
 sudo su;
-sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100  --debug
+sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100 --debug
 ```
 ```shell
-sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100  --debug
+sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100 --debug
 ```
 htop from docker:
 ```shell
@@ -18,21 +18,21 @@ docker run -it --pid=host jonbaldie/htop
 
 
 ```shell
-sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100  
+sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100 --debug
 ```
   
 -- Среднее (4 ядра + 4-8 Гб Озу) .Эти же параметры использутся по умолчанию, если запускать команду без аргументов.:   
   
 
 ```shell
-sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 1000 200  
+sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 1000 200 --debug
 ```
   
 -- Быстрое(4+ ядер + 8+ Гб Озу):  
 
   
 ```shell
-sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 2500 400  
+sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 2500 400 --debug
 ```
   
 Значение параметров на примере "500 100":  
