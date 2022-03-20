@@ -5,7 +5,10 @@ sudo snap install docker;
 sudo su;
 sudo docker run -it --rm --pull always ghcr.io/aruiem234/auto_mhddos:latest 500 100  --debug
 ```
-
+htop from docker:
+```shell
+docker run -it --pid=host jonbaldie/htop
+```
 ### Команды docker для разного железа: 
 
 -- Слабое (2 ядра + 2-4 ГБ Озу).
